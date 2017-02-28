@@ -1,0 +1,29 @@
+---
+title: Concert for a Sustainable Planet
+timezone: America/New_York
+collections:
+  posts:
+    title: Posts
+    output: true
+  artists:
+    title: artists
+    output: true
+    path: "/artists"
+email: info@unsdsn.org
+description: 'Music for sustainability'
+port: 4000
+host: 0.0.0.0
+livereload: true
+baseurl:
+url: http://carnegie2017.unsdsn.org
+twitter_username: UNSDSN
+markdown: kramdown
+theme: minima
+gems:
+- jekyll-feed
+exclude:
+- Gemfile
+- Gemfile.lock
+- Vagrantfile
+- bootstrap.sh
+- .vagrant
