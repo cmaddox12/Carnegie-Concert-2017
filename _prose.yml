@@ -1,0 +1,10 @@
+prose:
+  siteurl: 'http://carnegie2017.unsdsn.org'
+  media: 'media'
+  ignore:
+    - _config.yml
+    - bootstrap.sh
+    - CNAME
+    - Gemfile
+    - Gemfile.lock
+    - Vagrantfile
