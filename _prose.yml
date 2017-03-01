@@ -3,8 +3,10 @@ prose:
   media: 'media'
   ignore:
     - _config.yml
+    - _prose.yml
     - bootstrap.sh
     - CNAME
     - Gemfile
     - Gemfile.lock
     - Vagrantfile
+    - .gitignore
