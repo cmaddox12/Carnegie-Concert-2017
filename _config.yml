@@ -1,23 +1,27 @@
 ---
+# Site Info
 title: Concert for a Sustainable Planet
+description: 'Music for sustainability'
+url: http://carnegie2017.unsdsn.org
 timezone: America/New_York
+
+# Content Settings
 collections:
   posts:
     title: Posts
     output: true
   artists:
     title: artists
-    output: true
-    path: "/artists"
-email: info@unsdsn.org
-description: 'Music for sustainability'
-port: 4000
-host: 0.0.0.0
-livereload: true
-baseurl:
-url: http://carnegie2017.unsdsn.org
-twitter_username: UNSDSN
+    output: false
+    url: false
 markdown: kramdown
+excerpt_separator: <!--more-->
+
+# Contact Information
+email: info@unsdsn.org
+twitter_username: UNSDSN
+
+# Jekyll Settings
 theme: minima
 gems:
 - jekyll-feed
@@ -27,3 +31,8 @@ exclude:
 - Vagrantfile
 - bootstrap.sh
 - .vagrant
+
+# Jekyll Livereload Settings
+port: 4000
+host: 0.0.0.0
+livereload: true
