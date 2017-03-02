@@ -10,3 +10,21 @@ prose:
     - Gemfile.lock
     - Vagrantfile
     - .gitignore
+  metadata:
+    _artists:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "artist"
+      - name: "date"
+        field:
+          element: "hidden"
+          value: CURRENT_DATETIME
+      - name: "name"
+        field:
+          element: "text"
+          label: "Artist Name:"
+      - name: "photo"
+        field:
+            element: "text"
+            label: "Photo:"
