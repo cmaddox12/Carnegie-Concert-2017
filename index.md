@@ -5,6 +5,9 @@
 layout: home
 ---
 
-{% for artist in site.artists %}
+<!-- DO NOT EDIT -->
+{% assign artists = site.artists | sort: 'title' %}
+{% for artist in artists %}
   <h2>{{ artist.title }}</h2>
 {% endfor %}
+<!-- /ARTISTS OUTPUT -->
