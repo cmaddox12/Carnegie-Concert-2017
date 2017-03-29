@@ -10,8 +10,8 @@ collections:
   posts:
     title: Posts
     output: true
-  artists:
-    title: artists
+  performers:
+    title: performers
     output: false
     url: false
 markdown: kramdown
