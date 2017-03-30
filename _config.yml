@@ -1,10 +1,13 @@
 ---
 # Site Info
 title: Concert for a Sustainable Planet
-description: 'Music for sustainability'
+description:
 url: http://carnegie2017.unsdsn.org
 timezone: America/New_York
-
+event_date: 7:30 pm, September 18, 2017
+event_location: |
+  Zankel Hall, Carnegie Hall, New York, USA
+  Entrance on Seventh Avenue between 56th and 57th Streets
 # Content Settings
 collections:
   posts:

@@ -4,7 +4,15 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 title: Home
+header_block: |
+  Testing some longer content here.  
+
+  Hello!
+
+  [Ticket Info](#ticket-information)
 ---
+
+{{ site.event_date }}
 
 ## About
 
@@ -15,10 +23,17 @@ The artists who bring you Concert for a Sustainable Planet hope to address this 
 <!-- DO NOT EDIT -->
 ## Performers
 {% assign performers = site.performers | sort: 'title' %}
+<ul class="performers">
 {% for performer in performers %}
+  <li>
   <h3>{{ performer.title }}</h3>
+  {% if performer.focus %}
+  <h4>{{ performer.focus }}</h4>
+  {% endif %}
   {{ performer.content }}
+  </li>
 {% endfor %}
+</ul>
 <!-- /PERFORMERS OUTPUT -->
 
 ## Ticket Information

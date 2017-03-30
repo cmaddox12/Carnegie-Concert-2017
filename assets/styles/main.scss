@@ -21,10 +21,10 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    800px;
+$content-width:    100%;
 
-$on-palm:          600px;
-$on-laptop:        800px;
+$on-palm:          100%;
+$on-laptop:        100%;
 
 // Minima also includes a mixin for defining media queries.
 // Use media queries like this:
@@ -37,3 +37,17 @@ $on-laptop:        800px;
 
 // Import partials from the `minima` theme.
 //@import "minima";
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  height: 100vh;
+  width: 100%;
+  background-color: #000;
+  background: url(/assets/images/banner-overlay144px.png), #ccc;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

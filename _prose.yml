@@ -14,7 +14,7 @@ prose:
     - /_includes
     - /assets
   metadata:
-    _artists:
+    _performers:
       - name: "layout"
         field:
           element: "hidden"
@@ -27,6 +27,11 @@ prose:
         field:
           element: "text"
           label: "Name"
+          value: ""
+      - name: "focus"
+        field:
+          element: "text"
+          label: "Focus"
           value: ""
       - name: "photo"
         field:
