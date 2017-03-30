@@ -7,8 +7,7 @@ title: Home
 header_block: |
   Testing some longer content here.  
 
-  Hello!
-
+  Jump to:  
   [Ticket Info](#ticket-information)
 ---
 
