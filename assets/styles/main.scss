@@ -36,11 +36,38 @@ $on-laptop:        100%;
 // }
 
 // Import partials from the `minima` theme.
-//@import "minima";
+// @import "minima";
 
+@import "normalize";
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/*
 body {
   margin: 0;
   padding: 0;
+  width: 100vh;
+  height: 100vh;
+  background-image: url('/assets/images/bg_stars_1080.png'), radial-gradient(farthest-corner at 0 0 , #194657 0%, #16485d 40%, #000 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.star-overlay {
+  background: rgba(0,0,0,.10);
+  min-width: 100%;
 }
 
 .banner {
@@ -50,4 +77,38 @@ body {
   img {
     max-width: 100%;
   }
+}
+
+*/
+.site-header {
+  background-attachment:
+    fixed,
+    fixed;
+  background-image:
+    url('/assets/images/bg_stars_1080.png'),
+    radial-gradient(farthest-corner at 0 0 , #194657 0%, #16485d 40%, #000 100%);
+  background-position:
+    center center,
+    center center;
+  background-repeat:
+    no-repeat,
+    no-repeat;
+  background-size:
+    cover,
+    cover;
+  position: relative;
+  text-align: center;
+}
+
+.site-header h1 {
+  padding: 0 0;
+  margin: 0;
+}
+
+.site-header img {
+  max-width: 100%;
+}
+
+.site-footer {
+  display: none;
 }
