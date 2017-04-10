@@ -5,7 +5,7 @@
 
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
+$base-font-size:   18px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -40,64 +40,41 @@ $on-laptop:        100%;
 
 @import "normalize";
 
-html {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
 html, body {
   margin: 0;
   padding: 0;
 }
 
-/*
-body {
-  margin: 0;
-  padding: 0;
-  width: 100vh;
-  height: 100vh;
-  background-image: url('/assets/images/bg_stars_1080.png'), radial-gradient(farthest-corner at 0 0 , #194657 0%, #16485d 40%, #000 100%);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-.star-overlay {
-  background: rgba(0,0,0,.10);
-  min-width: 100%;
-}
-
-.banner {
-  width: 100%;
-  background-color: #000;
-
-  img {
-    max-width: 100%;
-  }
-}
-
-*/
 .site-header {
   background-attachment:
+    scroll,
+    scroll,
     fixed,
     fixed;
   background-image:
-    url('/assets/images/bg_stars_1080.png'),
+    url('/assets/images/bg_overlay_fff.png'),
+    url('/assets/images/bg_planet.png'),
+    url('/assets/images/bg_stars.png'),
     radial-gradient(farthest-corner at 0 0 , #194657 0%, #16485d 40%, #000 100%);
   background-position:
+    bottom center,
+    top center,
     center center,
     center center;
   background-repeat:
     no-repeat,
+    no-repeat,
+    no-repeat,
     no-repeat;
   background-size:
+    100%,
+    contain,
     cover,
     cover;
   position: relative;
   text-align: center;
+  height: 100%;
+  height: 100vh;
 }
 
 .site-header h1 {

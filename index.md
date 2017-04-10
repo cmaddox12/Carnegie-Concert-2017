@@ -20,6 +20,22 @@ Adopted by all countries in September 2015, the Sustainable Development Goals (S
 The artists who bring you Concert for a Sustainable Planet hope to address this gap, by fostering a dialogue and inspiring us to action. This concert will inspire hope, dedication, and commitment among groups of people worldwide to build a better planet together and foster positive change in society. The concert will build active connections between the performers on stage and the audience, and will be recorded for on-demand viewing for those who are unable to attend in person. We hope you will [join us!](#ticket-information)
 
 <!-- DO NOT EDIT -->
+## Program
+{% assign program = site.program | sort: 'title' %}
+<ul class="performers">
+{% for session in program %}
+  <li>
+  <h3>{{ session.title }}</h3>
+  {% if session.artist %}
+  <h4>{{ session.artist }}</h4>
+  {% endif %}
+  {{ session.content }}
+  </li>
+{% endfor %}
+</ul>
+<!-- /PROGRAM OUTPUT -->
+
+<!-- DO NOT EDIT -->
 ## Performers
 {% assign performers = site.performers | sort: 'title' %}
 <ul class="performers">
@@ -39,7 +55,7 @@ The artists who bring you Concert for a Sustainable Planet hope to address this 
 
 Tickets are available at the [Carnegie Hall website](https://www.carnegiehall.org/Calendar/2017/9/18/0730/PM/Music-for-a-Sustainable-Planet/). The site also includes a seating chart. Please direct any questions relating to ticketing directly to Carnegie Hall.
 
-# Map and Directions
+## Map and Directions
 
 Concert for a Sustainable Planet  
 7:30 pm, September 18, 2017  

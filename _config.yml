@@ -17,6 +17,10 @@ collections:
     title: performers
     output: false
     url: false
+  program:
+    title: program
+    output: false
+    url: false
 markdown: kramdown
 excerpt_separator: <!--more-->
 
