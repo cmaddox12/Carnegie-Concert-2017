@@ -4,8 +4,8 @@
 @charset "utf-8";
 
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size:   18px;
+$base-font-family: "Ingra", ingra, sans-serif;
+$base-font-size:   100%;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -39,53 +39,18 @@ $on-laptop:        100%;
 // @import "minima";
 
 @import "normalize";
+@import "layout";
 
 html, body {
   margin: 0;
   padding: 0;
+
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  font-weight: $base-font-weight;
+  line-height: $base-line-height;
 }
 
-.site-header {
-  background-attachment:
-    scroll,
-    scroll,
-    fixed,
-    fixed;
-  background-image:
-    url('/assets/images/bg_overlay_fff.png'),
-    url('/assets/images/bg_planet.png'),
-    url('/assets/images/bg_stars.png'),
-    radial-gradient(farthest-corner at 0 0 , #194657 0%, #16485d 40%, #000 100%);
-  background-position:
-    bottom center,
-    top center,
-    center center,
-    center center;
-  background-repeat:
-    no-repeat,
-    no-repeat,
-    no-repeat,
-    no-repeat;
-  background-size:
-    100%,
-    contain,
-    cover,
-    cover;
-  position: relative;
-  text-align: center;
-  height: 100%;
-  height: 100vh;
-}
-
-.site-header h1 {
-  padding: 0 0;
-  margin: 0;
-}
-
-.site-header img {
-  max-width: 100%;
-}
-
-.site-footer {
-  display: none;
+h2 {
+  text-transform: uppercase;
 }

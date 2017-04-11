@@ -1,27 +1,18 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 title: Home
-header_block: |
-  Testing some longer content here.  
-
-  Jump to:  
-  [Ticket Info](#ticket-information)
 ---
-
-{{ site.event_date }}
 
 ## About
 
 Adopted by all countries in September 2015, the Sustainable Development Goals (SDGs) call on us all to eradicate poverty, ensure that all children reach their full potential, support peaceful and healthy communities, and conserve nature. The vast majority of people around the world support these goals, but many do not know about them or have difficulty relating to them.
 
-The artists who bring you Concert for a Sustainable Planet hope to address this gap, by fostering a dialogue and inspiring us to action. This concert will inspire hope, dedication, and commitment among groups of people worldwide to build a better planet together and foster positive change in society. The concert will build active connections between the performers on stage and the audience, and will be recorded for on-demand viewing for those who are unable to attend in person. We hope you will [join us!](#ticket-information)
+The artists who bring you Concert for a Sustainable Planet hope to address this gap, by fostering a dialogue and inspiring us to action. This concert will inspire hope, dedication, and commitment among groups of people worldwide to build a better planet together and foster positive change in society. The concert will build active connections between the [performers](#performers) on stage and the audience, and will be recorded for on-demand viewing for those who are unable to attend in person. We hope you will [join us!](#ticket-information)
 
-<!-- DO NOT EDIT -->
+
 ## Program
-{% assign program = site.program | sort: 'title' %}
+[comment]: <> (Do NOT edit.)
+{% assign program = site.program | sort: 'order' %}
 <ul class="performers">
 {% for session in program %}
   <li>
@@ -33,11 +24,11 @@ The artists who bring you Concert for a Sustainable Planet hope to address this 
   </li>
 {% endfor %}
 </ul>
-<!-- /PROGRAM OUTPUT -->
 
-<!-- DO NOT EDIT -->
+
 ## Performers
-{% assign performers = site.performers | sort: 'title' %}
+[comment]: <> (Do NOT edit.)
+{% assign performers = site.performers | sort: 'order' %}
 <ul class="performers">
 {% for performer in performers %}
   <li>
@@ -49,7 +40,6 @@ The artists who bring you Concert for a Sustainable Planet hope to address this 
   </li>
 {% endfor %}
 </ul>
-<!-- /PERFORMERS OUTPUT -->
 
 ## Ticket Information
 
