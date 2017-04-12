@@ -21,6 +21,10 @@ collections:
     title: program
     output: false
     url: false
+  sections:
+    title: sections
+    output: false
+    url: false
 markdown: kramdown
 excerpt_separator: <!--more-->
 

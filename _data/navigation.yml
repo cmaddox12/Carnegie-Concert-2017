@@ -1,0 +1,11 @@
+masthead:
+  - title: "About"
+    url: /#about
+  - title: "Program"
+    url: /#program
+  - title: "Performers"
+    url: /#performers
+  - title: "Ticket Information"
+    url: /#ticket-information
+  - title: "Directions"
+    url: /#map-and-directions

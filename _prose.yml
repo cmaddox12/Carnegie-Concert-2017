@@ -8,10 +8,12 @@ prose:
     - CNAME
     - Gemfile
     - Gemfile.lock
+    - index.md
     - Vagrantfile
     - .gitignore
-    - /_layouts
     - /_includes
+    - /_layouts
+    - /_sass
     - /assets
   metadata:
     _performers:
