@@ -1,5 +1,5 @@
 ---
-title:  Performers
+title: Performers
 order: 3
 ---
 [comment]: <> (Do NOT edit.)

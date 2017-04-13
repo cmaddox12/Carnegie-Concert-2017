@@ -1,3 +1,17 @@
+html, body {
+  margin: 0;
+  padding: 0;
+
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  font-weight: $base-font-weight;
+  line-height: $base-line-height;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
 .site-header {
   background-attachment:
     scroll,
@@ -63,10 +77,55 @@
 .page-content {
   display: flex;
   margin: 0 auto;
-  max-width: 80%;
+  width: 100%;
 
   .wrapper {
       flex: 1;
   }
 
+}
+
+.page-section {
+  border-top: 2px solid #ccc;
+  margin: 2em 0;
+  padding: 0;
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+
+  &:before {
+    content:"";
+    display:block;
+    position:absolute;
+    z-index:-1;
+    top: .5em;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-top: 2px solid #ccc
+  }
+
+}
+
+.page-section-header {
+
+  position: relative;
+  margin: 0 auto;
+  width: 80%;
+
+  h2 {
+    font-size: 400%;
+    margin: 0;
+    color: 000;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+
+  }
+
+}
+
+.page-section-content {
+  width: 60%;
+  margin: 0 auto;
 }

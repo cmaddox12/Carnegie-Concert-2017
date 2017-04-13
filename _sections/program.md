@@ -1,5 +1,5 @@
 ---
-title:  Program
+title: Program
 order: 2
 ---
 [comment]: <> (Do NOT edit.)

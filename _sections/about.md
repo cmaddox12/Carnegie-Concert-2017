@@ -1,5 +1,5 @@
 ---
-title:  About
+title: About
 order: 1
 ---
 Adopted by all countries in September 2015, the Sustainable Development Goals (SDGs) call on us all to eradicate poverty, ensure that all children reach their full potential, support peaceful and healthy communities, and conserve nature. The vast majority of people around the world support these goals, but many do not know about them or have difficulty relating to them.
