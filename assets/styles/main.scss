@@ -21,22 +21,19 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    100%;
+$content-width:    1200px;
 
 $on-palm:          100%;
 $on-laptop:        100%;
+$on-big-screen:   60em;
 
-// Minima also includes a mixin for defining media queries.
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-
-// Import partials from the `minima` theme.
-// @import "minima";
-
+@import "mixins";
 @import "normalize";
-@import "layout";
+@import "masthead";
+@import "blocks";
+@import "collections";
+
+body {
+  margin: 0;
+  padding: 0;
+}

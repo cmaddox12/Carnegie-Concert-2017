@@ -5,11 +5,11 @@ title: Home
 [comment]: <> (Do NOT edit.)
 {% assign sections = site.sections | sort: 'order' %}
 {% for section in sections %}
-  <section id="{{ section.title | downcase | replace: ' ', '-' }}" class="page-section">
-  <header class="page-section-header">
+  <section id="{{ section.title | downcase | replace: ' ', '-' }}" class="block">
+  <div class="block__header">
     <h2>{{ section.title }}</h2>
-  </header>
-  <div class="page-section-content">
+  </div>
+  <div class="block__content">
     {{ section.content }}
   </div>
   </section>

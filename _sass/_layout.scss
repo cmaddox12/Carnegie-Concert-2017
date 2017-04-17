@@ -8,10 +8,6 @@ html, body {
   line-height: $base-line-height;
 }
 
-h2 {
-  text-transform: uppercase;
-}
-
 .site-header {
   background-attachment:
     scroll,
@@ -52,43 +48,15 @@ h2 {
           justify-content: center;
 }
 
-.site-header-meta {
-  max-width: 60%;
-}
-
-.site-header h1 {
-  font-size: 2em;
-  font-weight: 700;
-  color: #fff;
-  padding: 0 0;
-  margin: 0;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.site-header img {
-  max-width: 100%;
-}
 
 .site-footer {
   display: none;
 }
 
-.page-content {
-  display: flex;
-  margin: 0 auto;
-  width: 100%;
-
-  .wrapper {
-      flex: 1;
-  }
-
-}
-
 .page-section {
   border-top: 2px solid #ccc;
-  margin: 2em 0;
-  padding: 0;
+  margin: 0;
+  padding: 2em 0;
   position: relative;
   width: 80%;
   margin: 0 auto;

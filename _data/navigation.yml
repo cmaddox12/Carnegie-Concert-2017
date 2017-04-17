@@ -5,7 +5,7 @@ masthead:
     url: /#program
   - title: "Performers"
     url: /#performers
-  - title: "Ticket Information"
-    url: /#ticket-information
-  - title: "Directions"
-    url: /#map-and-directions
+  - title: "Tickets"
+    url: /#tickets
+  - title: "Venue"
+    url: /#venue
