@@ -29,11 +29,7 @@ $on-big-screen:   60em;
 
 @import "mixins";
 @import "normalize";
+@import "base";
 @import "masthead";
 @import "blocks";
 @import "collections";
-
-body {
-  margin: 0;
-  padding: 0;
-}

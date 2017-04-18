@@ -7,7 +7,7 @@ order: 3
 <ul class="performers">
 {% for performer in performers %}
   <li>
-    <img src="https://unsplash.it/300/300/?random">
+    <img src="">
     <h3 class="performer-name">{{ performer.title }}</h3>
     {% if performer.focus %}
     <h4 class="performer-focus">{{ performer.focus }}</h4>
