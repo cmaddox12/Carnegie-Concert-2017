@@ -34,6 +34,7 @@
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 17;
 
   @include media-query($on-big-screen){
     position: fixed;
@@ -44,6 +45,10 @@
   position: absolute;
   top: -9999px;
   left: -9999px;
+}
+
+.masthead__menu-wrapper input[type=checkbox]:checked ~ .masthead__menu {
+  display: block;
 }
 
 .masthead__menu-wrapper label {
@@ -64,6 +69,7 @@
 }
 
 .masthead__menu {
+  display: none;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -103,6 +109,7 @@
   letter-spacing: .05em;
   text-align: left;
   display: inline-block;
+  position: relative;
 }
 .logo div {
   line-height: 0.9;
@@ -113,8 +120,26 @@
   margin-left: .333em;
 }
 
+.logo__overlay-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120%;
+}
+
 @include media-query($on-big-screen) {
+
+  .masthead__menu-wrapper label {
+    display: none;
+  }
+
+  .masthead__menu {
+    display: block;
+  }
+
   .logo {
     font-size: 6em;
   }
+
+
 }

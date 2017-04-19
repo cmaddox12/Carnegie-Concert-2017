@@ -8,12 +8,23 @@
 }
 
 .block__header {
-
+  font-size: $base-font-size 1.3;
+  text-transform: uppercase;
 }
 
 .block__content {
 
-  font-size: $base-font-size * 1.3;
+  font-size: $base-font-size;
   line-height: 1.4;
 
+}
+
+@include media-query($on-big-screen) {
+  .block__header {
+    font-size: $base-font-size * 2.3;
+  }
+
+  .block__content {
+    font-size: $base-font-size * 1.3;
+  }
 }
