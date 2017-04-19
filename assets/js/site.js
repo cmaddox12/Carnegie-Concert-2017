@@ -3,7 +3,7 @@ $(function() {
   // Cache selectors
   var lastId,
     topMenu = $("#nav-primary"),
-    topMenuHeight = topMenu.outerHeight()+15,
+    topMenuHeight = topMenu.outerHeight()+30,
     // All list items
     menuItems = topMenu.find("a"),
     // Anchors corresponding to menu items
@@ -14,6 +14,14 @@ $(function() {
       } catch (e) {
         // do nothing
       }
+  });
+
+  console.log(topMenuHeight);
+
+  $(".masthead__menu-item").click(function () {
+    $('input[type=checkbox]').removeAttr('checked');
+    $(".masthead__menu-item").removeClass("active");
+    $(this).addClass("active");
   });
 
   // Animated Scroll

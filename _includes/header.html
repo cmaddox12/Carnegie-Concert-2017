@@ -1,6 +1,8 @@
 <header class="masthead" role="banner">
   <div class="masthead__wrapper">
   <nav id="nav-primary" class="masthead__menu-wrapper">
+      <input type="checkbox" id="button">
+      <label for="button" onclick=""></label>
       <ul class="masthead__menu">
         <li>
           <a href="#home" class="masthead__menu-item">Home</a>
@@ -10,9 +12,6 @@
             <a href="{{ site.url }}{{ link.url }}" class="masthead__menu-item">{{ link.title }}</a>
           </li>
         {% endfor %}
-        <li>
-          <a href="#0" class="overlay__menu-trigger masthead__menu-item" aria-label="Navigation Menu" title="Navigation Menu">Menu</a>
-        </li>
       </ul>
     </nav>
     <h1 class="logo">

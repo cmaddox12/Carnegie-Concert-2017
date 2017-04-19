@@ -4,13 +4,14 @@
 @charset "utf-8";
 
 // Our variables
-$base-font-family: "Ingra", ingra, sans-serif;
+//$base-font-family: "Ingra", ingra, sans-serif;
+$base-font-family: "Proxima Nova", proxima-nova, sans-serif;
 $base-font-size:   100%;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.4;
 
-$spacing-unit:     30px;
+$spacing-unit:     1em;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
@@ -20,8 +21,11 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
+// Width of the masthead
+$masthead-width: 1200px;
+
 // Width of the content area
-$content-width:    1200px;
+$content-width: 800px;
 
 $on-palm:          100%;
 $on-laptop:        100%;

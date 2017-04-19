@@ -1,22 +1,18 @@
 .masthead {
   background-attachment:
     scroll,
-    //fixed,
     fixed,
     fixed;
   background-image:
     url('/assets/images/bg_overlay_fff.png'),
-    //url('/assets/images/bg_planet_vertical.png'),
     url('/assets/images/bg_stars.png'),
     radial-gradient(farthest-corner at 0 0 , #194657 0%, #16485d 40%, #000 100%);
   background-position:
     bottom center,
-    //bottom center,
     center center,
     center center;
   background-repeat:
     no-repeat,
-    //no-repeat,
     no-repeat,
     no-repeat;
   background-size:
@@ -28,24 +24,43 @@
 }
 .masthead__wrapper {
   margin: auto;
-  max-width: $content-width;
-  //overflow: auto;
-  //padding: 0 1em;
+  max-width: $masthead-width;
   text-align: center;
 }
 
 .masthead__menu-wrapper {
-  background: rgba(0,0,0,.75);
-  position: relative;
+  background: rgba(25,70,87,1);
+  position: fixed;
   top: 0;
   left: 0;
-  //padding: 1em;
   width: 100%;
 
   @include media-query($on-big-screen){
     position: fixed;
   }
+}
 
+.masthead__menu-wrapper input[type=checkbox] {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+.masthead__menu-wrapper label {
+  cursor: pointer;
+  display: block;
+  min-height: 2.5em;
+
+  &:after {
+    background-image: url('/assets/images/menu-icon.png');
+    content: '';
+    position: absolute;
+    right: .6em;
+    top: .4em;
+    font-size: 1.8em;
+    width: 23px;
+    height: 17px;
+  }
 }
 
 .masthead__menu {
@@ -55,7 +70,6 @@
 
   li {
     display: block;
-    padding: 1em;
 
     @include media-query($on-big-screen){
       display: inline-block;
@@ -65,12 +79,23 @@
 .masthead__menu-item {
   color: #fff;
   text-decoration: none;
+  text-transform: uppercase;
   padding: 1em;
+  display: block;
+  transition: color .3s;
+
+  &:focus,
+  &:hover {
+    color: #00c5ff;
+  }
+}
+
+.active {
+  color: #00c5ff;
 }
 
 .logo {
   color: #fff;
-  font-family: "Ingra", ingra, sans-serif;
   font-size: 3em;
   text-transform: uppercase;
   margin: 2em auto 3em auto;
