@@ -33,9 +33,11 @@ prose:
       - name: "focus"
         field:
           element: "text"
-          label: "Focus"
+          label: "Artistic Focus:"
+          help: (E.g. Dancer, Cello, etc.)
           value: ""
       - name: "photo"
         field:
             element: "text"
-            label: "Photo:"
+            label: "Photo: (Should be cropped square at a max of 400x400px.)"
+            value: ""

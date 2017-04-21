@@ -4,6 +4,7 @@ layout: artist
 published: true
 title: Mimmo Miccolis
 focus: Dancer
+photo: performers_mimmo_miccolis.jpg
 order: 6
 ---
 Mimmo Miccolis has won several awards, including the Outstanding Choreographer Award in 2015 at the YAGP in New York and the BBC Performing Arts Fund in 2011 for his work Rights(?). He currently choreographs and teaches at The Washington Ballet and the George Mason University School of Dance.

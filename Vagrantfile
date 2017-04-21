@@ -11,7 +11,7 @@ Vagrant.configure("2") do |config|
   config.vm.network :forwarded_port, guest: 21, host: 2121
   config.vm.network "forwarded_port", host: 35729, guest: 35729
   #config.vm.synced_folder ".", "/vagrant", fsnotify: true
-  config.vm.synced_folder ".", "/vagrant", type: "rsync", rsync__exclude: ".git/"
+  config.vm.synced_folder ".", "/vagrant", type: "rsync", rsync__exclude: "_site/"
   config.ssh.forward_agent = true
 
   config.vm.provider :virtualbox do |vb|

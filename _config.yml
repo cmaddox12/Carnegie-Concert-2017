@@ -8,6 +8,9 @@ event_date: 7:30 pm, September 18, 2017
 event_location: >
   Zankel Hall, Carnegie Hall, New York, USA
   Entrance on Seventh Avenue between 56th and 57th Streets
+
+github: "sdsna/Carnegie-Concert-2017"
+
 # Content Settings
 collections:
   posts:
