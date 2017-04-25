@@ -4,13 +4,18 @@
 
 .block {
   max-width: $content-width;
-  margin: 0 auto;
+  margin: 0 auto 6rem auto;
 }
 
 .block__header {
   font-size: $base-font-size;
   color: #ccc;
   text-transform: uppercase;
+}
+
+.block_subtitle {
+  color: #01baf1;
+  display: block;
 }
 
 .block__content {
@@ -37,8 +42,9 @@
 
   .block__title {
     color: #000;
-    font-size: $base-font-size * 8;
+    font-size: $base-font-size * 6;
     margin: 0 auto 1rem auto;
+    line-height: .9;
   }
 
   .block__content {

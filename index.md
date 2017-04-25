@@ -7,9 +7,11 @@ title: Home
 {% for section in sections %}
   <section id="{{ section.title | downcase | replace: ' ', '-' }}" class="block">
   <div class="block__header">
-    <span>
+    {% if section.subtitle %}
+    <span class="block_subtitle">
     {{ section.subtitle}}
     </span>
+    {% endif %}
     <h2 class="block__title">
     {{ section.title }}
     </h2>

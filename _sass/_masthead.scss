@@ -6,11 +6,11 @@
   background-image:
     url('/assets/images/bg_overlay_fff.png'),
     url('/assets/images/bg_stars.png'),
-    radial-gradient(farthest-corner at 0 0 , #194657 0%, #16485d 40%, #000 100%);
+    radial-gradient(farthest-corner at 0 0 , #00c5ff 0%, #16485d 70%, #000 100%);
   background-position:
     bottom center,
     center center,
-    center center;
+    top left;
   background-repeat:
     no-repeat,
     no-repeat,
@@ -29,7 +29,7 @@
 }
 
 .masthead__menu-wrapper {
-  background: rgba(25,70,87,1);
+  background: #01baf1;
   position: fixed;
   top: 0;
   left: 0;
@@ -92,12 +92,12 @@
 
   &:focus,
   &:hover {
-    color: #00c5ff;
+    color: #004559;
   }
 }
 
 .active {
-  color: #00c5ff;
+  color: #004559;
 }
 
 .logo {

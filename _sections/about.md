@@ -1,5 +1,5 @@
 ---
-title: About
+title: The Concert
 subtitle: Fostering dialogue and inspiring action
 order: 1
 ---
