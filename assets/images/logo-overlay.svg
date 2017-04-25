@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 558 270">
+  <title>logo-overlay</title>
+  <g id="Lines_1" data-name="Lines 1">
+    <line x1="18" y1="27" x2="27" y2="180" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-dasharray="2"/>
+    <line x1="72" y1="108" x2="108" y2="243" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-dasharray="2"/>
+    <line x1="126" y1="54" x2="135" y2="162" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-dasharray="2"/>
+    <polyline points="243 45 225 108 234 234" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-dasharray="2"/>
+    <polyline points="324 189 378 18 378 117 414 189 387 252" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-dasharray="2"/>
+    <polyline points="459 54 513 135 540 234" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-dasharray="2"/>
+  </g>
+  <g id="Lines_2" data-name="Lines 2">
+    <polyline points="18 27 126 54 243 45 378 18 459 54" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-dasharray="2"/>
+    <polyline points="72 108 225 108 378 117 513 135" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-dasharray="2"/>
+    <polyline points="27 180 135 162 324 189 414 189" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-dasharray="2"/>
+    <polyline points="108 243 234 234 387 252 540 234" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-dasharray="2"/>
+  </g>
+  <g id="Lines_3" data-name="Lines 3">
+    <polyline points="72 108 126 54 225 108 135 162 108 243 27 180 72 108 18 27" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-dasharray="2"/>
+    <polyline points="225 108 324 189 234 234 135 162" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-dasharray="2"/>
+    <polyline points="243 45 378 117 324 189 387 252 513 135 414 189 459 54" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-dasharray="2"/>
+  </g>
+  <g id="Lines_4" data-name="Lines 4">
+    <line x1="540" y1="234" x2="414" y2="189" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-dasharray="2"/>
+    <line x1="459" y1="54" x2="378" y2="117" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-dasharray="2"/>
+  </g>
+  <g id="Lines_5" data-name="Lines 5">
+    <line x1="72" y1="108" x2="135" y2="162" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-dasharray="2"/>
+    <line x1="243" y1="45" x2="324" y2="189" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-dasharray="2"/>
+    <polyline points="378 18 225 108 459 54" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-dasharray="2"/>
+    <line x1="378" y1="117" x2="387" y2="252" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-dasharray="2"/>
+  </g>
+  <g id="SDGs">
+    <circle cx="126" cy="54" r="9" fill="#2d9a47"/>
+    <circle cx="378" cy="18" r="9" fill="#ef412a"/>
+    <circle cx="225" cy="108" r="9" fill="#f36e24"/>
+    <circle cx="108" cy="243" r="9" fill="#cd8b2a"/>
+    <circle cx="414" cy="189" r="9" fill="#00558a"/>
+    <circle cx="387" cy="252" r="9" fill="#40ae49"/>
+    <circle cx="243" cy="45" r="9" fill="#c22033"/>
+    <circle cx="135" cy="162" r="9" fill="#8f1838"/>
+    <circle cx="72" cy="108" r="9" fill="#d19f2a"/>
+    <circle cx="27" cy="180" r="9" fill="#fdb714"/>
+    <circle cx="324" cy="189" r="9" fill="#007dbb"/>
+    <circle cx="513" cy="135" r="9" fill="#f99d25"/>
+    <circle cx="540" cy="234" r="9" fill="#1a3668"/>
+    <circle cx="459" cy="54" r="9" fill="#00add8"/>
+    <circle cx="378" cy="117" r="9" fill="#e01a83"/>
+    <circle cx="18" cy="27" r="9" fill="#ea1c2d"/>
+    <circle cx="234" cy="234" r="9" fill="#48773c"/>
+  </g>
+</svg>

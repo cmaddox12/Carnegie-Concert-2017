@@ -2,13 +2,13 @@
 title: Performers
 order: 3
 ---
-[comment]: <> (Do NOT edit.)
+[comment]: <> (Performers BLOCK. Do NOT edit.)
 {% assign performers = site.performers | sort: 'order' %}
 <ul class="performers">
 {% for performer in performers %}
   <li>
     {% if performer.photo %}
-    <img src="/media/{{ performer.photo }}">
+    <img src="/media/{{ performer.photo }}" class="performer-photo" alt="{{ performer.title }}">
     {% endif %}
     <h3 class="performer-name">{{ performer.title }}</h3>
     {% if performer.focus %}
@@ -18,3 +18,4 @@ order: 3
   </li>
 {% endfor %}
 </ul>
+[comment]: <> (End of Performers BLOCK)

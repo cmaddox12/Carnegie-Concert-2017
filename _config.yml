@@ -15,7 +15,7 @@ github: "sdsna/Carnegie-Concert-2017"
 collections:
   posts:
     title: Posts
-    output: true
+    output: false
   performers:
     title: performers
     output: false

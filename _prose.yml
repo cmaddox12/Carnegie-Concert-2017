@@ -15,6 +15,7 @@ prose:
     - /_layouts
     - /_sass
     - /assets
+    - /_posts
   metadata:
     _performers:
       - name: "layout"
