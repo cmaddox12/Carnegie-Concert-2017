@@ -5,11 +5,7 @@ description:
 url: http://carnegie2017.unsdsn.org
 timezone: America/New_York
 event_date: 7:30 pm, September 18, 2017
-event_location: >
-  Zankel Hall, Carnegie Hall, New York, USA
-  Entrance on Seventh Avenue between 56th and 57th Streets
-
-github: "sdsna/Carnegie-Concert-2017"
+event_location: Carnegie Hall, New York, USA
 
 # Content Settings
 collections:
@@ -34,6 +30,9 @@ excerpt_separator: <!--more-->
 # Contact Information
 email: info@unsdsn.org
 twitter_username: UNSDSN
+
+# Github Settings
+github: "sdsna/Carnegie-Concert-2017"
 
 # Jekyll Settings
 theme: minima
