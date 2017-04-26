@@ -9,8 +9,8 @@
     radial-gradient(farthest-corner at 0 0 , #00c5ff 0%, #16485d 70%, #000 100%);
   background-position:
     bottom center,
-    top center,
-    top left;
+    center,
+    center;
   background-repeat:
     no-repeat,
     no-repeat,
@@ -110,6 +110,11 @@
   text-align: left;
   display: inline-block;
   position: relative;
+}
+.logo {
+  background: url('/assets/images/logo-overlay.svg');
+  background-repeat: no-repeat;
+  background-position: center top;
 }
 .logo div {
   line-height: 0.9;
