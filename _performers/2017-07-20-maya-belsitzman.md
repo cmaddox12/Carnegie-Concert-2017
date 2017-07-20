@@ -5,6 +5,7 @@ published: false
 title: Maya Belsitzman
 focus: Cello
 order: 1
+photo: Maya.jpg
 ---
 Maya was born in Tel Aviv on May 26 1986 and started playing the cello when she was 7 at the Tel Aviv conservatory of music, studying with the great Israeli teachers Hillel Zori, Zvi Plesser and Shmuel Magen.At the same time she studied at the Tel Aviv School of Arts and later at “Thelma Yellin” high school of arts.
 
