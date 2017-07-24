@@ -1,7 +1,7 @@
 ---
 date: '2017-07-24 15:16 -0400'
 layout: artist
-published: false
+published: true
 title: Merlijn Twaalfhoven
 focus: Composer
 order: 9
