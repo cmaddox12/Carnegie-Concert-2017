@@ -42,6 +42,11 @@ prose:
             element: "text"
             label: "Photo: (Should be cropped square at a max of 400x400px.)"
             value: ""
+      - name: "order"
+        field:
+            element: "number"
+            label: "Order"
+            value: ""
     _program:
       - name: "layout"
         field:
@@ -63,6 +68,6 @@ prose:
           value: ""
       - name: "order"
         field:
-            element: "text"
+            element: "number"
             label: "Order"
             value: ""
