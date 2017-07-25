@@ -1,5 +1,5 @@
 prose:
-  siteurl: 'http://carnegie2017.unsdsn.org'
+  siteurl: 'http://cfsp2017.unsdsn.org'
   media: 'media'
   ignore:
     - _config.yml
