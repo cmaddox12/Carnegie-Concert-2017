@@ -60,10 +60,9 @@ prose:
         field:
           element: "text"
           label: "Artist:"
-          help: (...)
           value: ""
       - name: "order"
         field:
             element: "text"
-            label: "..."
+            label: "Order"
             value: ""
