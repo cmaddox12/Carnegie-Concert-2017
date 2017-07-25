@@ -42,3 +42,28 @@ prose:
             element: "text"
             label: "Photo: (Should be cropped square at a max of 400x400px.)"
             value: ""
+    _program:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "default"
+      - name: "date"
+        field:
+          element: "hidden"
+          value: CURRENT_DATETIME
+      - name: "title"
+        field:
+          element: "text"
+          label: "Name"
+          value: ""
+      - name: "artist"
+        field:
+          element: "text"
+          label: "Artist:"
+          help: (...)
+          value: ""
+      - name: "order"
+        field:
+            element: "text"
+            label: "..."
+            value: ""
