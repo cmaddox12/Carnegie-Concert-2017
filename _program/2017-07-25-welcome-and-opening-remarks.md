@@ -4,6 +4,5 @@ layout: default
 order: 1
 published: false
 title: Welcome and Opening Remarks
-artist: Jeffrey Sachs & Pavel Kabat
+artist: Jeffrey Sachs
 ---
-
