@@ -4,7 +4,7 @@ layout: default
 published: true
 title: Four Drifting Seasons
 artist: Merlijn Twaalfhoven
-order: 5
+order: 14
 ---
 Together with Jan Driessen and Killian Elbers, activist composer Merlijn Twaalfhoven translated climate change data from the Northern hemisphere into music to create this striking vocal piece. The piece is true to the data, and the vocals are a direct reflection of the changes in our climate since the beginning of measurement in 1880 until spring 2017. This piece pushes a well-known graph from a visual to an auditory experience, ending intensely with one highly pitched tone. In this way, we can relate freshly to the story the data is telling us, surpassing the overly politicized and polarized tone which surrounds this topic.
 
