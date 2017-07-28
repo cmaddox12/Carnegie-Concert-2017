@@ -4,5 +4,6 @@ layout: default
 order: 13
 published: false
 title: Introduction to Art & Science Collaboration
+artist: Pavel Kabat
 ---
-Pavel Kabat
+
