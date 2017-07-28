@@ -1,8 +1,8 @@
 ---
 date: '2017-07-25 16:15 -0400'
 layout: default
-order: 10
+order: 9
 published: false
-title: The SDGs Prayer
+title: An SDGs Salad
 artist: Ronen Shapira
 ---
