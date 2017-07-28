@@ -1,7 +1,7 @@
 ---
 date: '2017-07-25 16:16 -0400'
 layout: default
-order: 11
+order: 10
 published: false
 title: 'The Five Continents, Part 2'
 artist: Ronen Shapira
