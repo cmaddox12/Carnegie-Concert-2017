@@ -2,7 +2,9 @@
 date: '2017-07-25 12:22 -0400'
 layout: default
 published: true
-title: Des Antonius von Padua Fischpredigt (Anonius from Padua Preaching to the Fish)
+title: >-
+  Des Antonius von Padua Fischpredigt (Antonius from Padua Preaching to the
+  Fish)
 artist: Gustav Mahler
 order: 3
 ---
