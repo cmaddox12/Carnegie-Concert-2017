@@ -6,5 +6,4 @@ published: false
 title: SDG Mix - Life on Land
 artist: 'William Bolcom, Andre Hajdu, & Ronen Shapira'
 ---
-Dance choreographed by Gloria Benedikt and Mimmo Miccolis, to a short piece inspired by the 17 Sustainable Development Goals. 
-
+A question choreographed by Gloria Benedikt and Mimmo Miccolis, in relation to the 17 Sustainable Development Goals.
