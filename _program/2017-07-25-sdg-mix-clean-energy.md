@@ -6,5 +6,4 @@ published: false
 title: SDG Mix - Clean Energy
 artist: 'Berry Sakharof, Micha Shitrit, & Ronen Shapira'
 ---
-Dance choreographed by Gloria Benedikt and Mimmo Miccolis, to a short piece inspired by the 17 Sustainable Development Goals. 
-
+A question choreographed by Gloria Benedikt and Mimmo Miccolis, in relation to the 17 Sustainable Development Goals.
