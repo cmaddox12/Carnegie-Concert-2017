@@ -6,3 +6,4 @@ published: false
 title: An SDGs Salad
 artist: Ronen Shapira
 ---
+Shapira's musical narration of the SDGs serves as a light-hearted appetizer to the second half of the concert.
