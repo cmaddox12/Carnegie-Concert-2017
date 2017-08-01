@@ -6,8 +6,8 @@ published: true
 ---
 Adopted by all countries in September 2015, the [Sustainable Development Goals (SDGs)](https://sustainabledevelopment.un.org/sdgs) call on us all to eradicate poverty, ensure that all children reach their full potential, support peaceful and healthy communities, and conserve nature. The vast majority of people around the world support these goals, but many do not know about them or have difficulty relating to them.
 
-SDSN, IIASA, and the artists who bring you **Concert for a Sustainable Planet** hope to address this gap, by fostering a dialogue and inspiring us to action. This concert will inspire hope, dedication, and commitment among groups of people worldwide to build a better planet together and foster positive change in society. The concert will build active connections between the [performers](#performers) on stage and the audience, and will be recorded for on-demand viewing for those who are unable to attend in person.
+The artists who bring you **Concert for a Sustainable Planet** hope to address this gap, by fostering a dialogue and inspiring us to action. This concert will inspire hope, dedication, and commitment among groups of people worldwide to build a better planet together and foster positive change in society. The concert will build active connections between the [performers](#performers) on stage and the audience, and will be recorded for on-demand viewing for those who are unable to attend in person.
 
 We hope you will [join us!](#tickets)
 
-The concert is presented and sponsored by the United Nations Sustainable Development Solutions Network (SDSN) and the International Institute of Applied Systems Analysis (IIASA).
+The concert is presented by the United Nations Sustainable Development Solutions Network (SDSN) and the International Institute of Applied Systems Analysis (IIASA).
