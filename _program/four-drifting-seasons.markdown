@@ -10,4 +10,4 @@ Together with Jan Driessen and Killian Elbers, activist composer Merlijn Twaalfh
 
 In _Four Drifting Seasons_ each vocal group represents a season, with low voices singing the winter, middle voices the spring and autumn, and soprano voices the summer. The occurrence of extreme weather events like floods and storms are expressed through articulation, dynamics and percussive sounds.
 
-Since the music is neither melodic nor conventional, it is difficult to perform. To ensure accuracy the team developed an app to support singers in finding the exact during the performance. Instructions, examples and a manual can be found on the website [www.twaalfhoven.net](http://www.twaalfhoven.net).
+Since the music is neither melodic nor conventional, it is difficult to perform. To ensure accuracy the team developed an app to support singers in finding the exact pitch during the performance. Instructions, examples and a manual can be found on the website [www.twaalfhoven.net](http://www.twaalfhoven.net).
