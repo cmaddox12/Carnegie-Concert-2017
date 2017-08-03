@@ -7,4 +7,5 @@ This concert is presented by the United Nations Sustainable Development Solution
 
 Organizers are grateful for generuos support from the Permanent Mission of Israel to the United Nations, the Consulate General of Israel in New York, and Mifal Hapais.
 
-![Banner.jpg]({{site.baseurl}}/media/Banner.jpg)
+![Banner small.jpg]({{site.baseurl}}/media/Banner small.jpg)
+
